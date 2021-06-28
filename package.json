@@ -1,0 +1,25 @@
+{
+  "name": "nodered",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/node-red/red.js -v -u ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharantutorials/nodered.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sharantutorials/nodered/issues"
+  },
+  "homepage": "https://github.com/sharantutorials/nodered#readme",
+  "dependencies": {
+    "node-red": "^1.3.5",
+    "node-red-node-email": "^1.12.1",
+    "node-red-node-feedparser": "^0.2.1"
+  }
+}
